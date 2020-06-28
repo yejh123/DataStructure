@@ -1,0 +1,12 @@
+文件引用库：
+iostream
+fstream
+algorithm
+set
+string
+windows.h
+io.h
+
+可能出现的编译错误：
+CreateDirectory()函数参数如果提示"Error: "const char"类型的实参与"LPCWSTR"类型的形参不兼容"，解决方法：
+项目菜单——项目属性(最后一个)——配置属性——常规——项目默认值——字符集，将使用Unicode字符集改为未设置即可。
